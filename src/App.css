@@ -1,0 +1,109 @@
+.font-face-gm {
+  font-family: "Pokemon Solid";
+ }
+
+a {
+  color: rgb(214, 214, 255);
+  text-decoration: none !important;
+}
+
+a.active {
+  color: rgb(252, 248, 17);
+  font-weight: bold;
+}
+
+.non-active{
+  color: rgb(255, 255, 255);
+}
+
+.contenedor-principal{
+  min-height: 100vh;
+}
+
+.fondoAsh{
+  object-fit: contain;
+}
+
+.h1{
+  padding-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 2px rgb(0, 0, 0);
+  font-size: 50px !important;
+}
+
+.h1Lista{
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 2px rgb(0, 0, 0);
+}
+
+.seccionPokemones{
+  min-height: 100vh;
+  padding: 100px
+}
+
+.contenedorSeleccionador{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.containerPokes{
+  justify-content: center;
+}
+
+.formSelect{
+  margin-top: 30px;
+}
+
+.btnDetalle{
+  margin-top: 20px;
+  width: 120px;
+  background-color: rgb(1, 117, 172) !important;
+}
+
+.seccionDetalle{
+  min-height: 100vh;
+}
+
+.seccionNotFound{
+  min-height: 100vh;
+}
+
+.divNotFound{
+  padding: 200px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 2px rgb(0, 0, 0);
+  font-size: 50px !important;
+}
+
+.cardPoke{
+  width: 500px;
+  margin: 0px auto;
+}
+
+.imgCard{
+  height: 200px;
+}
+
+.headerPoke{
+  font-weight: bold;
+  font-size: xx-large;
+  color: rgb(0, 0, 0) !important;
+}
+
+table, th, td {
+  border: 1px solid;
+  text-align: center;
+}
+
+table{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.fondoAsh{
+  height: 200px;
+}
